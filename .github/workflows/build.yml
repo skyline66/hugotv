@@ -30,8 +30,7 @@ jobs:
         run: |
           set -euo pipefail
           TAG="v0.1.0"
-          NOTES="HugoTV v0.1.0：轻量中文电视桌面启动器（无广告、不联网、本地运行）。\
-  APK 为 CI 自动构建并签名（临时调试密钥，升级请先卸载旧版）。"
+          NOTES="HugoTV v0.1.0：轻量中文电视桌面启动器（无广告、不联网、本地运行）。APK 为 CI 自动构建并签名（临时调试密钥，升级请先卸载旧版）。"
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" dist/*.apk --clobber
           else
