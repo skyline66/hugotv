@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F2027"/>
+      <stop offset="0.5" stop-color="#203A43"/>
+      <stop offset="1" stop-color="#2C5364"/>
+    </linearGradient>
+    <filter id="sh" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1280" height="720" fill="#000" opacity="0.45"/>
+
+  <!-- 设置弹窗 -->
+  <g filter="url(#sh)">
+    <rect x="260" y="150" width="760" height="420" rx="22" fill="#22303D" stroke="#4FC3F7" stroke-opacity="0.35"/>
+    <text x="300" y="212" font-size="30" font-weight="bold" fill="#FFFFFF">桌面设置</text>
+
+    <text x="300" y="276" font-size="19" fill="#BFD9EA">背景主题</text>
+    <g>
+      <rect x="300" y="292" width="152" height="48" rx="24" fill="#1F4A66" stroke="#4FC3F7" stroke-width="2"/>
+      <text x="376" y="323" text-anchor="middle" font-size="18" fill="#FFFFFF">深蓝</text>
+      <rect x="464" y="292" width="152" height="48" rx="24" fill="#1B4A2A"/>
+      <text x="540" y="323" text-anchor="middle" font-size="18" fill="#FFFFFF">墨绿</text>
+      <rect x="628" y="292" width="152" height="48" rx="24" fill="#572027"/>
+      <text x="704" y="323" text-anchor="middle" font-size="18" fill="#FFFFFF">绯红</text>
+      <rect x="792" y="292" width="152" height="48" rx="24" fill="#4C566A"/>
+      <text x="868" y="323" text-anchor="middle" font-size="18" fill="#FFFFFF">晨雾</text>
+    </g>
+
+    <text x="300" y="408" font-size="19" fill="#BFD9EA">每行应用数</text>
+    <g>
+      <rect x="300" y="424" width="92" height="48" rx="24" fill="#1F4A66" stroke="#4FC3F7" stroke-width="2"/>
+      <text x="346" y="455" text-anchor="middle" font-size="18" fill="#FFFFFF">4</text>
+      <rect x="404" y="424" width="92" height="48" rx="24" fill="#1F4A66"/>
+      <text x="450" y="455" text-anchor="middle" font-size="18" fill="#FFFFFF">5</text>
+      <rect x="508" y="424" width="92" height="48" rx="24" fill="#1F4A66"/>
+      <text x="554" y="455" text-anchor="middle" font-size="18" fill="#FFFFFF">6</text>
+      <rect x="612" y="424" width="92" height="48" rx="24" fill="#1F4A66"/>
+      <text x="658" y="455" text-anchor="middle" font-size="18" fill="#FFFFFF">7</text>
+    </g>
+
+    <rect x="852" y="498" width="132" height="46" rx="23" fill="#37474F"/>
+    <text x="918" y="527" text-anchor="middle" font-size="18" fill="#E0E0E0">关 闭</text>
+  </g>
+
+  <!-- 底部栏 -->
+  <text x="60" y="676" font-size="17" fill="#FFFFFF" opacity="0.65">HugoTV · 轻量桌面 · 无广告 · 不联网</text>
+  <rect x="1118" y="644" width="122" height="50" rx="25" fill="#4FC3F7"/>
+  <text x="1179" y="677" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="bold">设 置</text>
+</svg>
