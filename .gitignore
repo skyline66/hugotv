@@ -1,0 +1,6 @@
+# 构建产物与本地工具链
+dist/
+obj/
+tools/
+*.apk
+*.keystore
